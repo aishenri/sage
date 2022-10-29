@@ -1,0 +1,14 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage[europeanresistors,americaninductors]{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw (0,0) -- (5,0);       % AB = 5
+\draw (0,0) -- (1.8,2.4);   % AC = 3
+\draw (5,0) -- (1.8,2.4);   % BC = 4
+\draw (0,0) node [below] {$A$};
+\draw (5,0) node [below] {$B$};
+\draw (1.8,2.85) node [below] {$C$};
+\end{circuitikz}
+
+\end{document}
